@@ -1,0 +1,101 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("../images/background.jpg");
+}
+
+#inputbox{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#C0C0C0;
+}
+
+#total{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  color: #fefefe;
+  background:#C0C0C0;
+}
+
+#subtitle {
+  font-size: 2em;
+  text-align: center;
+  top: 0;
+  color: #fefefe;
+  background:#DDA0DD;
+}
+
+#ig{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#FFDF9D;
+}
+#login{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#efe9ae;
+}
+#order{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#ffd1dc;
+}
+
+/*Template from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #d7d7d1;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+a:link, a:active, a:visited{
+  text-decoration: none;
+  color: #fefefe;
+}

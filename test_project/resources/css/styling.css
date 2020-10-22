@@ -1,0 +1,67 @@
+body {
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    background-image: url("..\images\background.jpg");
+}
+
+#inputbox{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#C0C0C0;
+}
+
+#total{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  color: #fefefe;
+  background:#C0C0C0;
+}
+
+#subtitle {
+  font-size: 2em;
+  text-align: center;
+  top: 0;
+  color: #fefefe;
+  background:#DDA0DD;
+}
+
+#ig{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#FFDF9D;
+}
+#login{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#efe9ae;
+}
+#order{
+  text-align: center;
+  font-size: 2em;
+  position: fixed
+  padding: 5px;
+  margin: 5px;
+  width: 23%;
+  color: #fefefe;
+  background:#ffd1dc;
+}
+
+a:link, a:active, a:visited{
+  text-decoration: none;
+  color: #fefefe;
+}
